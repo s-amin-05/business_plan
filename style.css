@@ -21,7 +21,8 @@ header{
 
 header img{
     width: 15%;
-    height: 80px;   
+    height: 60px;
+    border-radius: 20px;   
 }
 
 nav{

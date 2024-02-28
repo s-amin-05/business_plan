@@ -4,11 +4,18 @@
     Secondary : fafafa
 */
 
-body{
-    background-color: #2d5e01;
+*{   
     margin: 0;
     padding: 0;
 
+}
+
+.image{
+    position: relative;
+    background-image: url("Images/background(2).png");
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
 }
 
 header{
@@ -33,7 +40,7 @@ ul.nav_links{
     white-space: nowrap;
     display: flex;
     list-style-type: none;
-    padding: 10px ;
+    padding: 10px;
     margin: 10px;
     justify-items: right;
 }
@@ -42,6 +49,7 @@ ul.nav_links li{
     padding: 10px;
     margin: 10px;
 }
+
 a{
     color: aliceblue;
     text-decoration: none;
@@ -50,27 +58,29 @@ a{
 }
 
 main{
-    max-width: 100%;
-    width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
-    box-sizing: border-box;
-
-}
-
-main ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
     
+    position: relative;
+    left: 90px;
+    top: 100px;
 }
 
-main h2{
+.slogan h1{
     color: whitesmoke;
     text-shadow: 2px 2px grey;
 
 }
+
+.intro{
+    margin-top: 80px;
+    margin-right: 700px;
+}
+
+
+
+
+
 
 
 

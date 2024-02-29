@@ -124,18 +124,62 @@ main{
     text-decoration: none;
 }
 
+section{
+    margin-bottom: 120px;
+}
+
+section h3{
+    color: rgba(13, 3, 3, 0.8);
+    font-weight: bold;
+    background-image: linear-gradient(to right,transparent, rgba(112, 144, 121, 0.441), transparent);
+    margin-top: 30px;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    font-size: 1.5em;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    margin: 20px 180px;
+}
+
+.services button{
+    border: 4px solid #4c2c0f;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: 230px;
+    background-color: rgb(241, 241, 241);
+}
+
+.services button h4{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgba(13, 3, 3, 0.8);
+}
+
+.services button p{
+    text-align: center;
+    color: rgb(64, 62, 62);
+    font-size: 1.2em;
+}
+
 footer{
-    
-    max-width: 90%;
-    width: 50%;
-    margin: 0px auto;
+    background-color: rgb(35, 35, 39);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px;
 }
 
 footer a{
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(248, 246, 246, 0.9);
     padding: 8px 30px;
     text-decoration: none;
 }
-
-
-

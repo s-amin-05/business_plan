@@ -2,6 +2,7 @@
     Primary : 52b94c
     Contrast : 1c1b22
     Secondary : fafafa
+    Brown : 4c2c0f
 */
 
 *{   
@@ -112,7 +113,6 @@ main{
 .buttons button{
     padding: 12px 15px;
     margin: 0px 15px;
-    font-size: 1.0em;
     /* background-image: linear-gradient(to right, transparent, rgba(254, 245, 231)); */
     background-color: rgb(237, 255, 230);
     border-radius: 32px; 
@@ -133,7 +133,7 @@ footer{
 
 footer a{
     color: rgba(0, 0, 0, 0.9);
-    padding: 0px 30px;
+    padding: 8px 30px;
     text-decoration: none;
 }
 

@@ -23,7 +23,7 @@ body{
 .image{
     position: relative;
     background-image: linear-gradient(to left,transparent, transparent,
-    rgb(99, 232, 99)),url("Images/background(2).png");
+    rgb(99, 232, 99)),url("Images/background(1).png");
     max-width: 90%;
     width: 90%;
     height: 100vh;
@@ -60,12 +60,12 @@ nav{
 .nav_links button{
     /* margin: 0px 10px; */
     border: 0px;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(20, 17, 17, 0.437);
 }
 
 .nav_links button a{
     display: inline-block; 
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     padding: 10px 20px;
     margin: 10px;
@@ -177,7 +177,7 @@ section h3{
 footer{
     background-color: rgb(35, 35, 39);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 0px 200px;
 }
